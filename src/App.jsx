@@ -1,9 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import'./index.css'
-import Header from './Header'
-import Body from './Body'
-import Input from './Input'
+import Home from './Home'
+
 
 
 function App() {
@@ -13,9 +12,7 @@ function App() {
 
   return (
     <div className="app">
-       <Header></Header>
-       <Body></Body>
-       <Input ></Input>
+      <Home/>
     </div>
   )
 }
