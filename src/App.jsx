@@ -1,10 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+
 import './index.css'
 import Header from './Header'
 import Body from './Body'
 import Input from './Input'
 import { Tooltip } from 'react-tooltip'
+
+
 
 function App() {
 
@@ -13,6 +16,7 @@ function App() {
 
   return (
     <div className="app">
+
      <div className='tool'  data-tooltip-id="my-tooltip">
         <p>ayobami</p>
         
@@ -23,6 +27,7 @@ function App() {
        <Input setMessages={setMessages} />
         
       </Tooltip>
+
     </div>
   )
 }
