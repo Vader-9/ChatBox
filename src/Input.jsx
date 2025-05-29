@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Input.css'
-import Body from './Body';
+
 
 
 function Input({setMessages}){
